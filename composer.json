@@ -9,20 +9,11 @@
             "email": "davit.hambardzumyan20@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "json-schema/json-schema-test-suite",
-                "version": "1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/davit-hambardzumyan/ameriabankv",
-                    "reference": "1.0.0"
-                }
-            }
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Ameria\\": "src/"
         }
-    ]
+    }
 }
