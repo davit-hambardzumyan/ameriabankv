@@ -1,12 +1,19 @@
 {
     "name": "davit-hambardzumyan/ameriabankv",
-    "description": "Ameriabank client",
+    "description": "Ameria",
     "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DavitHambardzumyan\\Ameriabankv\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "davit",
             "email": "davit.hambardzumyan20@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
