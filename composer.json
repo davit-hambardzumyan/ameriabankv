@@ -8,14 +8,5 @@
             "name": "davit",
             "email": "davit.hambardzumyan20@gmail.com"
         }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Omnipay\\Ameria\\": "src/"
-        }
-    },
-    "require": {
-        "l3/cas-bundle": "dev-master"
-    }
+    ]
 }
