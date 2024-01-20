@@ -3,11 +3,6 @@
     "description": "Ameria",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "DavitHambardzumyan\\Ameriabankv\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "davit",
