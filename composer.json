@@ -1,8 +1,13 @@
 {
     "name": "davit-hambardzumyan/ameriabankv",
-    "description": "Ameriabank client",
+    "description": "Ameria",
     "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DavitHambardzumyan\\Ameriabankv\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "davit",
@@ -10,12 +15,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Omnipay\\Ameria\\": "src/"
+    "require": {},
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "json-schema/json-schema-test-suite",
+                "version": "1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/davit-hambardzumyan/ameriabankv",
+                    "reference": "1.0.0"
+                }
+            }
         }
-    },
-    "require": {
-        "l3/cas-bundle": "dev-master"
-    }
+    ]
 }
