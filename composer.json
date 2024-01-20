@@ -15,5 +15,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "json-schema/json-schema-test-suite",
+                "version": "1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/davit-hambardzumyan/ameriabankv",
+                    "reference": "1.0.0"
+                }
+            }
+        }
+    ]
 }
